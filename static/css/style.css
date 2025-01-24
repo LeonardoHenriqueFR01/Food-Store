@@ -18,8 +18,14 @@ header {
     align-items: center;
     justify-content: space-around;
     padding: 1em;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.363); 
 }
-
+  
 header > .logo > a {
     display: flex;
     align-items: center;
@@ -184,6 +190,7 @@ main > .contact {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #707070;
 }
 
 main > .contact > form > .contact-logo {
