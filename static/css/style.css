@@ -179,3 +179,72 @@ main > .product > .product-content > .product-box {
     gap: 30px;
 }
 
+main > .contact {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > .contact > form > .contact-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > .contact > form > .contact-logo > h1 {
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+main > .contact > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e6e6e6;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 1em;
+    height: 70vh;
+    width: 30vw;
+}
+
+main > .contact > form > label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+main > .contact > form > input {
+    padding: .8em;
+    font-size: 1.5em;
+    width: 25vw;
+    border: 1px solid rgb(18, 197, 241);
+}
+
+main > .contact > form > select {
+    padding: .7em;
+    font-size: 1.5em;
+    background-color: rgb(17, 190, 233);
+    color: #fff;
+    border-radius: 10px;
+}
+
+main > .contact > form > textarea {
+    width: 27vw;
+    height: 10vh;
+    font-size: 1.5em;
+    padding: .8em;
+    border: 1px solid rgb(18, 197, 241);
+}
+
+main > .contact > form > button {
+    padding: .8em;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: rgb(17, 190, 233);
+    color: #fff;
+    cursor: pointer;
+}

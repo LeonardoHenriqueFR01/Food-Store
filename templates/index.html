@@ -106,6 +106,44 @@
             </div>
 
         </section>
+
+        <section class="contact" id="contact">
+
+            <form action="#" method="post">
+
+                <div class="contact-logo">
+
+                    <img src="../static/imagens/logo-savory-bites.png" alt="Logo Savory Bites">
+
+                    <h1>Savory Bites</h1>
+
+                </div>
+                
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number (optional)">
+                
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" required>
+                  <option value="general">General Inquiry</option>
+                  <option value="order">Order Issue</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="other">Other</option>
+                </select>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+              </form>
+              
+
+        </section>
     
     </main>
 
