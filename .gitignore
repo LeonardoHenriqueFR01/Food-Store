@@ -1,0 +1,6 @@
+# Ignora pasta de nome venv
+venv/
+
+# Ignora __pycahce__ etc
+*__pycahce__
+*.pyc
